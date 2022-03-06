@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🧼 Text Purifier</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <div class="container is-fluid">
+      <form id="form" class="box mt-5">
+        <div class="field">
+          <label class="label">A simple copy and paste text purifier</label>
+          <div class="control">
+            <textarea
+              id="textarea"
+              class="textarea is-dark"
+              placeholder="Copy and paste your smugdy text here!"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+        <button type="submit" id="button" class="button is-dark">
+          Just paste your grubby text!
+        </button>
+        <p id="log"></p>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
